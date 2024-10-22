@@ -1,0 +1,30 @@
+/* Custom styles */
+
+/* Desktop Menu */
+.desktop-menu {
+    display: flex;
+    justify-content: end;
+}
+
+/* Show dropdown on hover */
+.group:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+}
+
+/* Show dropdown when clicked */
+.show {
+    display: block !important; /* Show when active */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .menu-button {
+        display: block; /* Show menu button on small screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .menu-button {
+        display: none; /* Hide menu button on larger screens */
+    }
+}
